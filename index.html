@@ -18,21 +18,33 @@
     <div class="side-credit">Photo by <a href="https://unsplash.com/photos/modern-skyscraper-illuminated-at-night-with-surrounding-buildings-WGXdJk8gkuM">Tan Kanithanond</a> on <a href="https://unsplash.com/images">Unplash</a> </p>
 </div>
 <div class="content-bar">
-    <div>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</div>
-    <div>Test</div>
-    <div class="form-container"></div>
+    <div class="form-header">
+        <div><h3>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</h3></div>
+        <div><h3>You <em>know</em> you want to.</h3></div>    
+    </div>
+    <div class="form-container">
         <form id="signup-form">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
+            <h3> Let's do this!</h3>
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" name="firstname" required>
+            
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" name="lastname" required>
 
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
 
+            <label for="phonenumber">Phone Number:</label>
+            <input type="tel" id="phonenumber" name="phonenumber" required>
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" required>
-
-            <button type="submit">Sign Up</button>
+            <label for="password">Confirm Password:</label>
+            <input type="password" id="password" name="password" required>
         </form>
+    </div>
+    <div class="form-footer">
+        <button type="submit">Create Account</button>
+        <div class="message"> Already have an account? <a class="login-link" href=""> Log in</a></div>
     </div>
 </div>
 </body>
