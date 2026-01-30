@@ -119,6 +119,7 @@ h3 {
 
 label {
     text-transform: uppercase;
+    margin-bottom: 0.5vh;
     font-size: 0.7em;
 }
 
@@ -129,9 +130,25 @@ label {
 input[type="text"], input[type="tel"], input[type="email"], input[type="password"] {
     margin-bottom: 1vh;
     padding: 1vh;
-    border: 1px solid #bdc3c7;
+    border: 1px solid #E5E7EB;
     border-radius: 5px;
-    width: 60%;
+    height : 2.5vh;
+    width: 50%;
+}
+
+input[type="text"]:focus, input[type="tel"]:focus, input[type="email"]:focus {
+  outline: max(1px, 0.1em) solid rgb(94, 139, 236);
+  outline-offset: max(1px, 0.1em);
+}
+
+input[type="password"]:valid {
+  outline: max(1px, 0.1em) solid rgb(112, 192, 90);
+  outline-offset: max(1px, 0.1em);
+}
+
+input[type="password"]:invalid {
+  outline: max(1px, 0.1em) solid rgb(236, 94, 94);
+  outline-offset: max(1px, 0.1em);
 }
 
 .field {

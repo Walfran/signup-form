@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign-Up</title>
+    <title>The Odin Project | Assignment: Sign-Up</title>
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/script.js" defer></script>
 </head>
@@ -22,37 +22,37 @@
         <div><h3>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</h3></div>
         <div><h3>You <em>know</em> you want to.</h3></div>    
     </div>
-    <div class="form-container">
+    <div class="form-container"> <!--- Shouldve used <fieldset></fieldset> and <legend></legend>, too late now----> 
         <form id="signup-form">
             <h3> Let's do this!</h3>
             
             <div class="field">
-            <label for="first_name">First Name:</label>
+            <label for="first_name">First Name(*):</label>
             <input type="text" id="first_name" name="first_name" required>
             </div>
 
             <div class="field">
-            <label for="last_name">Last Name:</label>
+            <label for="last_name">Last Name(*):</label>
             <input type="text" id="last_name" name="last_name" required>
             </div>
 
             <div class="field">
-            <label for="email">Email:</label>
+            <label for="email">Email(*):</label>
             <input type="email" id="email" name="email" required>
             </div>
 
             <div class="field">
-            <label for="phonenumber">Phone Number:</label>
+            <label for="phonenumber">Phone Numbe(*):</label>
             <input type="tel" id="phonenumber" name="phonenumber" required>
             </div>
             
             <div class="field">
-            <label for="password">Password:</label>
+            <label for="password">Password(*):</label>
             <input type="password" id="password" name="password" required>
             </div>
             
             <div class="field">
-            <label for="confirm_password">Confirm Password:</label>
+            <label for="confirm_password">Confirm Password(*):</label>
             <input type="password" id="confirm_password" name="confirm_password" required>
             </div>
         </form>
