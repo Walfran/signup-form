@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: "Norse-Bold";
-    src: url(/Users/wpinto/repos/signup-form/fonts/norse/Norsebold.otf);
+    src: url(../fonts/norse/Norsebold.otf);
 }
 
 body {
