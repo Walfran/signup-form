@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: "Norse-Bold";
-    src: url(../fonts/norse/Norsebold.otf);
+    src: url("../fonts/norse/Norsebold.otf") format("opentype");
 }
 
 body {
