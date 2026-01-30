@@ -141,12 +141,12 @@ input[type="text"]:focus, input[type="tel"]:focus, input[type="email"]:focus {
   outline-offset: max(1px, 0.1em);
 }
 
-input[type="password"]:valid {
+input[type="password"]:focus:valid {
   outline: max(1px, 0.1em) solid rgb(112, 192, 90);
   outline-offset: max(1px, 0.1em);
 }
 
-input[type="password"]:invalid {
+input[type="password"]:focus:invalid {
   outline: max(1px, 0.1em) solid rgb(236, 94, 94);
   outline-offset: max(1px, 0.1em);
 }
